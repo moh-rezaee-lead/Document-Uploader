@@ -1,0 +1,20 @@
+name: android_document_uploader
+description: Flutter plugin for launching Android Document Uploader. Not supported on iOS.
+author: Moh Rezaee <moh@rezaee.me>
+homepage: https://github.com/moh
+version: 0.0.1
+
+flutter:
+  plugin:
+    androidPackage: io.flutter.plugins.androidintent
+    iosPrefix: FLT
+    pluginClass: AndroidIntentPlugin
+
+dependencies:
+  flutter:
+    sdk: flutter
+  platform: ^2.0.0
+  meta: ^1.0.5
+
+environment:
+  sdk: ">=1.8.0 <2.0.0"
